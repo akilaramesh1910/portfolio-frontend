@@ -50,7 +50,6 @@
   padding: 0 10px;
 }
 
-
 .menu {
   font-family: "Google Sans Regular";
 }
@@ -61,18 +60,17 @@
   transition: max-height 0.2s ease-out;
 }
 
-
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  /* float: right; */
+  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #fff;
   display: block;
   height: 2px;
   position: relative;
@@ -82,7 +80,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #fff;
   content: "";
   display: block;
   height: 100%;
