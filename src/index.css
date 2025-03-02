@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"),
+    url("./assests/fonts/Agustina.woff") format("woff");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./assests/fonts/Montserrat-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Bold";
+  src: local("Google Sans Bold"),
+    url("./assests/fonts/GoogleSans-Bold.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Bold Italic";
+  src: local("Google Sans Bold Italic"),
+    url("./assests/fonts/GoogleSans-BoldItalic.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Italic";
+  src: local("Google Sans Italic"),
+    url("./assests/fonts/GoogleSans-Italic.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Medium";
+  src: local("Google Sans Medium"),
+    url("./assests/fonts/GoogleSans-Medium.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Medium Italic";
+  src: local("Google Sans Medium Italic"),
+    url("./assests/fonts/GoogleSans-MediumItalic.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Regular";
+  src: local("Google Sans Regular"),
+    url("./assests/fonts/GoogleSans-Regular.ttf") format("woff");
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#ee4c2c, #ee4c2c);
+  background-size: 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline:hover {
+  background-size: 100% 2px;
+  background-position: 0 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assests/images/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
+}

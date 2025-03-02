@@ -1,0 +1,142 @@
+:root {
+  --highlight: #D6BEF4;
+  --dark: #21052C;
+  --text: #430A58;
+}
+
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.gretting-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  margin-top: 80px;
+  font-size: 70px;
+  line-height: 1.1;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-nickname {
+  font-size: 30px;
+  line-height: 0px;
+  font-family: "Google Sans Bold Italic";
+}
+
+.greeting-text-p {
+  font-size: 40px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+
+.greeting-image-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#ee4c2c, #ee4c2c);
+  background-size: 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline:hover {
+  background-size: 100% 2px;
+  background-position: 0 100%;
+}
+
+.portfolio-repo-btn-div {
+  margin-top: 20px;
+}
+
+.portfolio-repo-btn-div a {
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.portfolio-repo-btn-div a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+  .portfolio-repo-btn-div {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .greeting-nickname {
+    font-size: 25px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+
+  .portfolio-repo-btn-div {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio-repo-btn {
+    background-color: var(--highlight) !important;
+    color: var(--dark) !important;
+    border: 2px solid var(--text) !important;
+    font-weight: bold !important;
+  }
+  
+}

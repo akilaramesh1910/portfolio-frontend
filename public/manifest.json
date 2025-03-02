@@ -1,0 +1,9 @@
+{
+  "name": "Akila Ramesh Portfolio",
+  "background_color": "#000000",
+  "display": "standalone",
+  "icons": [],
+  "short_name": "Akila Portfolio",
+  "start_url": ".",
+  "theme_color": "#000000"
+}
