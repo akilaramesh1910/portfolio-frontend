@@ -1,5 +1,5 @@
 const settings = {
-  isSplash: false, 
+  isSplash: false,
 };
 
 const seo = {
@@ -19,7 +19,7 @@ const greeting = {
   nickname: "Full-Stack Developer 💻",
   subTitle:
     "A passionate Full-Stack Developer who thrives on building scalable applications, optimizing technical systems, and delivering high-impact solutions",
-  resumeLink: "https://akila-r-resume.netlify.app/",
+  resumeLink: "https://akila-ramesh-resume.netlify.app/",
   githubProfile: "https://github.com/akilaramesh1910",
 };
 
@@ -27,26 +27,26 @@ const socialMediaLinks = [
   {
     name: "Github",
     link: "https://github.com/akilaramesh1910",
-    fontAwesomeIcon: "fa-github", 
-    backgroundColor: "#181717", 
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/akila-ramesh-akila/",
     fontAwesomeIcon: "fa-linkedin-in",
-    backgroundColor: "#1877F2", 
+    backgroundColor: "#1877F2",
   },
   {
     name: "Gmail",
     link: "mailto:akilaramesh1910@gmail.com",
-    fontAwesomeIcon: "fa-google", 
+    fontAwesomeIcon: "fa-google",
     backgroundColor: "#D14836",
   },
   {
     name: "Instagram",
     link: "https://www.instagram.com/aylaakil_ak/",
     fontAwesomeIcon: "fa-instagram",
-    backgroundColor: "#E4405F", 
+    backgroundColor: "#E4405F",
   },
 ];
 
@@ -167,7 +167,6 @@ const skills = {
   ],
 };
 
-
 const degrees = {
   degrees: [
     {
@@ -208,7 +207,6 @@ const experience = {
           color: "#000000",
         },
       ],
-      
     },
     {
       title: "Internships",
@@ -242,11 +240,12 @@ const contactPageData = {
     profile_image_path: "program.svg",
     description: (
       <span>
-        Whether it's for a project, a collaboration, or just to connect, I'm always open to new opportunities and discussions.  
-        <br /> I can help you with Full-Stack Development, React, Next.js, Node.js, TypeScript, Angular,JavaScript, Fastify, and API integrations.
+        Whether it's for a project, a collaboration, or just to connect, I'm
+        always open to new opportunities and discussions.
+        <br /> I can help you with Full-Stack Development, React, Next.js,
+        Node.js, TypeScript, Angular,JavaScript, Fastify, and API integrations.
       </span>
     ),
-    
   },
   addressSection: {
     title: "Connect",
@@ -260,7 +259,6 @@ const contactPageData = {
     subtitle: "",
   },
 };
-
 
 export {
   settings,
