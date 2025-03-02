@@ -19,7 +19,7 @@ const greeting = {
   nickname: "Full-Stack Developer 💻",
   subTitle:
     "A passionate Full-Stack Developer who thrives on building scalable applications, optimizing technical systems, and delivering high-impact solutions",
-  resumeLink: "https://akila-r-resume.netlify.app/",
+  resumeLink: "https://akila-ramesh-resume.netlify.app/",
   githubProfile: "https://github.com/akilaramesh1910",
 };
 
