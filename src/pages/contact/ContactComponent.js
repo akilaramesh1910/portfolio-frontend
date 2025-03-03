@@ -9,9 +9,8 @@ import "./ContactComponent.css";
 import { contactPageData } from "../../portfolio.js";
 import ContactImg from "./ContactImg.js";
 import emailjs from "emailjs-com";
-import { env } from "../../environment/env.br.js";
 
-emailjs.init(env.REACT_APP_PUBLIC_KEY);
+emailjs.init(process.env.REACT_APP_PUBLIC_KEY);
 
 const ContactData = contactPageData.contactSection;
 const addressSection = contactPageData.addressSection;
@@ -40,13 +39,17 @@ class Contact extends Component {
 
     const { name, phone, email, message } = this.state;
     try {
-      await emailjs.send(env.REACT_APP_SERVICE_ID, env.REACT_APP_TEMPLATE_ID, {
-        from_name: name,
-        from_email: email,
-        phone: phone,
-        message: message,
-        to_email: "akilaramaesh1910@gmail.com",
-      });
+      await emailjs.send(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        {
+          from_name: name,
+          from_email: email,
+          phone: phone,
+          message: message,
+          to_email: "akilaramaesh1910@gmail.com",
+        }
+      );
 
       this.setState({
         isSubmitting: false,
